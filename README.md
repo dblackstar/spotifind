@@ -1,17 +1,18 @@
-# spotifind
-Download songs from your Spotify playlists and liked songs using youtubedl
+<h1>spotifind</h1>
+<p>Download songs from your Spotify playlists and liked songs using youtubedl</p>
 <br>
-First of all, you need to mkae an app in spotify for developers
+<p>First of all, you need to create an app in spotify for developers</p>
  https://developer.spotify.com/dashboard/applications
 <br>
-once created, you need to copy your Client ID and Client secret
+<p>once created, you need to copy your Client ID and Client secret</p>
 <img>
 <br>
-and then in the same page, go to settings and change the redirect URI to "http://localhost:8888/callback "
+<p>and then in the same page, go to settings and change the redirect URI to "http://localhost:8888/callback "</p>
 <img>
 <br>
-Once you have your ID and Secret, go to credentials.py and copy/paste them where asked, and you are good to go, just call main.py
+<p>Once you have your ID and Secret, go to credentials.py and copy/paste them where asked, and you are good to go, just call main.py</p>
 <br>
-To download a playlist, you need its ID, just go to your playlist, go to 'Share' in the 3 dots menu, and copy the link.
-The ID is the string of chracter after the last dash.
+<p>To download a playlist, you need its ID, just go to your playlist, go to 'Share' in the 3 dots menu, and copy the link.</p>
+<img>
+<p>The ID is the string of chracter after the last dash.</p>
 <img>
